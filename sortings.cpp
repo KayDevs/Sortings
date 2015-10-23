@@ -226,7 +226,7 @@ int main(int argc, char **argv)
 		cout<<i<<endl;
 		
 	cout<<"Quick sort"<<endl;
-	quick_sort(array3, 1, 5);
+	quick_sort(array3, 0, 5);
 	for(int i : array3)
 		cout<<i<<endl;
 		
